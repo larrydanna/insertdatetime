@@ -1,0 +1,29 @@
+{
+    "name": "insertdatetime",
+    "displayName": "InsertDateTime",
+    "description": "Insert the current Date Time",
+    "version": "0.0.1",
+    "publisher": "larrydanna",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.insertDateTime"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.insertDateTime",
+            "title": "Insert Date/Time"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
