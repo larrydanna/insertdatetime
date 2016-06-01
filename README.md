@@ -1,13 +1,14 @@
-# README
-## This is the README for your extension "insertdatetime"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# larrydanna.insertdatetime
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+## Insert Date Time
+Remember when Windows Notepad would just insert the Date/Time when you pressed F5?  Well, it still does.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Problem is, Visual Studio Code doens't have this feature built-in.  Install this extension to correct this deficiency.  ;)
 
+After that, the keybinding is up to you!
+
+## Installation
+> Ctrl + Shift + P
+> ext install larrydanna.insertdatetime
+ 
 **Enjoy!**
