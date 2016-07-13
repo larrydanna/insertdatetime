@@ -18,7 +18,17 @@
         "commands": [{
             "command": "extension.insertDateTime",
             "title": "Insert Date/Time"
-        }]
+        }],
+        "configuration": {
+            "title": "InsertDateTime Configuration",
+            "properties": {
+                "insertDateTime.locale":{
+                    "type": "string",
+                    "default": "",
+                    "description": "Sets the locale to be used. If undefined uses the system locale."
+                }
+            }
+        }
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"
