@@ -22,8 +22,12 @@ function activate(context) {
 
         editor.edit(function (editBuilder) {
             for(var i = 0; i < selections.length; i++){
+                var locale = vscode.workspace.getConfiguration('insertDateTime')['locale'];
                 var d = new Date;
-                var txt = d.toLocaleDateString() + " " + d.toLocaleTimeString();
+                if(locale != '')
+                    var txt = d.toLocaleString(locale);
+                else
+                    var txt = d.toLocaleString();
                 editBuilder.replace(selections[i], "");
                 editBuilder.insert(selections[i].active, txt);
             }
