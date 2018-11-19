@@ -1,11 +1,11 @@
 # larrydanna.insertdatetime
 
 ## Insert Date Time
-Remember when Windows Notepad would just insert the Date/Time when you pressed F5?  Well, it still does.
+Insert the Date and Time.
 
-Problem is, Visual Studio Code doens't have this feature built-in.  Install this extension to correct this deficiency.  ;)
+No frills.
 
-After that, the keybinding is up to you!
+I like to bind Ctrl + ; to this feature.  How about you?
 
 ## Installation
 > Ctrl + Shift + P
