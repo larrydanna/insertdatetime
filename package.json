@@ -2,7 +2,7 @@
     "name": "insertdatetime",
     "displayName": "InsertDateTime",
     "description": "Insert the current Date Time",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "larrydanna",
     "engines": {
         "vscode": "^1.0.0"
